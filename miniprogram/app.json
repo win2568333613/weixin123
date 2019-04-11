@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/shop/shop",
+    "pages/train/train",
+    "pages/video/video",
+    "pages/person/person"
+  ],
+  "tabBar": {
+    "color": "#464a56",
+    "selectedColor": "#6595e9",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabBar/main_grey.png",
+        "selectedIconPath": "images/tabBar/main_yellow.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "商城",
+        "iconPath": "images/tabBar/shop_grey.png",
+        "selectedIconPath": "images/tabBar/shop_yellow.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "培训",
+        "iconPath": "images/tabBar/train_grey.png",
+        "selectedIconPath": "images/tabBar/train_yellow.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "网课",
+        "iconPath": "images/tabBar/video_grey.png",
+        "selectedIconPath": "images/tabBar/video_yellow.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "images/tabBar/person_grey.png",
+        "selectedIconPath": "images/tabBar/person_yellow.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundColor": "green",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "green",
+    "navigationBarTitleText": "Rocket sporting 高校体育",
+    "navigationBarTextStyle": "white"
+  }
+}

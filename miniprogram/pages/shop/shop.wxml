@@ -1,0 +1,4 @@
+<!--pages/shop/shop.wxml-->
+<text>pages/shop/shop.wxml</text>
+<text>{{text}}</text>
+<button type='primary' bindtap='btnclick'>123</button>
